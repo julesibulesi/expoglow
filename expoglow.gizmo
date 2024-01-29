@@ -1,5 +1,11 @@
+set cut_paste_input [stack 0]
+version 13.0 v10
+push $cut_paste_input
 Group {
- inputs 2
+ name expoglow
+ selected true
+ xpos -105
+ ypos -79
  addUserKnob {20 exponentialGlow l "Exponential Glow"}
  addUserKnob {20 PreGrade n 1}
  PreGrade 0
